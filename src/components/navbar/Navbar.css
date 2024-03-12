@@ -1,0 +1,51 @@
+nav {
+  padding: 10px 2%;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-left .menu-icon {
+  width: 22px;
+  margin-right: 25px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.nav-left .logo {
+  font-size: 1.5rem;
+}
+
+.nav-middle .search-box {
+  border: 1px solid #ccc;
+  margin-right: 15px;
+  padding: 8px 12px;
+  border-radius: 25px;
+}
+
+.nav-middle .search-box input {
+  width: 500px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font-size: 1rem;
+}
+
+.nav-middle .search-box .search-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.nav-right .nav-right-icon {
+  font-size: 1.5rem;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.nav-right .user-icon {
+  width: 35px;
+  border-radius: 50%;
+}
